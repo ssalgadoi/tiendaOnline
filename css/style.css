@@ -1,0 +1,10 @@
+:root {
+    --primario: #C0392B  ;
+    --primarioOscuro: #922B21 ;
+    --secundario: #AEB6BF;
+    --secundarioOscuro: #717D7E;
+    --blanco:#fff;
+    --negro:#000;
+
+    --fuentePrincipal: 'Staatliches', cursive;
+}
