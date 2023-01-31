@@ -179,3 +179,25 @@ h3 {
         grid-column: 2 / 2;
     }
 }
+/* Bloques */
+@media (min-width: 768px) {
+    .bloques {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        
+    }
+}
+.bloques {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+}
+
+.bloque {
+    text-align: center;
+}
+.bloque__icono {
+    width: 50%;
+}
+.bloque__titulo {
+    margin: 0;
+}
