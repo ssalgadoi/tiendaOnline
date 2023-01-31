@@ -94,6 +94,18 @@ h3 {
 .navegacion__enlace:hover{
     color: var(--secundario);
 }
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+@media (min-width: 768px) {
+    .grid {
+        grid-template-columns: 1fr 1fr 1fr ;
+        gap: 2rem;
+    }
+   
+}
 
 /* Productos */
 .producto {
@@ -109,5 +121,5 @@ h3 {
 
 }
 .producto__precio {
-    
+
 }
