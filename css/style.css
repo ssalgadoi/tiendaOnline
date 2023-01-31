@@ -34,7 +34,7 @@ a {
     text-decoration: none;
 }
 img {
-    max-width: 100%;
+    width: 100%;
 }
 .contenedor {
     max-width: 120rem;
@@ -112,9 +112,9 @@ h3 {
     background-color: var(--primarioOscuro);
     padding: 1rem;
 }
-.producto__imagen {
+/* .producto__imagen {
     width: 100%;
-}
+} */
 /* .producto__informacion {
 
 } */
@@ -172,7 +172,7 @@ h3 {
 }
 .nosotros__imagen {
     grid-row: 1 / 2;
-    width: 100%;
+    /* width: 100%; */
 }
 @media (min-width: 768px) {
     .nosotros__imagen {
@@ -195,9 +195,15 @@ h3 {
 .bloque {
     text-align: center;
 }
-.bloque__icono {
-    width: 50%;
-}
+
 .bloque__titulo {
     margin: 0;
+}
+/* Pagina del Producto */
+@media (min-width: 768px) {
+    .camisa {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 2rem;
+    }
 }
